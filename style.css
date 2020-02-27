@@ -1,0 +1,164 @@
+body{
+    margin: 0px;
+}
+
+h2{
+    font-size: 45px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+}
+p{
+    color:dimgrey;
+}
+
+
+
+.intro{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-left: 70px ;
+    padding-bottom: 30px;
+   
+}
+
+.hihglight{
+    color:olivedrab;
+}
+
+.half{
+    width: 40%;
+    float: left;
+    padding-left: 100px;
+}
+
+.half h2{
+    padding-top: 60px;
+}
+.half img{
+    width: 70%;
+}
+
+.btn1{
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 20px;
+    background-image: linear-gradient(rgb(127, 127, 190) , rgb(24, 77, 99));
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+    padding-top: 30px;
+    background-color: gainsboro;
+}
+.biography h1{
+    padding-top: 70px;
+}
+.biography img{
+    width: 100%;
+}
+
+.work{
+    overflow: hidden;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+.work h1{
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.work img{
+    width: 30%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px;
+    box-shadow: 10px 5px 10px gray;
+}
+
+.work img:hover{
+    padding:30px 30px;
+}
+
+
+.fotter{
+    padding: 10px 10px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+   
+}
+
+.text{
+    text-align: center;
+}
+.fotter h2{
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
+.fotter h3{
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+   
+}
+
+.fotter h4{
+    font-size: 12px;
+    color: dimgray;
+    padding: 0px 0px;
+    margin-top: 1px;
+}
+
+.fotter p{
+    font-size: 22px;
+    color: black;
+}
+
+ .email {
+    background-color: tomato;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px 40px;
+    border-radius: 10px;;
+    font-weight: bold;
+}
+
+.email h4{
+    font-size: 18px;
+    color :white;
+}
+
+.email a{
+    text-decoration: none;
+    font-size: 30px;
+    color :white;
+}
+
+.copyright{
+    text-align: center;
+    color:dimgray;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
